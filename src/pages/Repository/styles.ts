@@ -1,5 +1,4 @@
-import { shade } from 'polished';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 interface FormProps {
     hasError: boolean;
@@ -74,7 +73,7 @@ export const RepositoryInfo = styled.section`
 `;
 
 export const Issues = styled.div`
-    margin-top: 80px;
+    margin-top: 20px;
 
     a {
         background: #fff;
