@@ -33,6 +33,8 @@
         "prettier/prettier": "error",
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
+        "react/jsx-props-no-spreading": "off",
+        "react/prop-types": "off",
         "import/prefer-default-export": "off",
         "camelcase": "off",
         "@typescript-eslint/camelcase": "off",
@@ -51,7 +53,8 @@
                 ]
             }
         ],
-        "indent": [ "off",
+        "indent": [
+            "off",
             4,
             {
                 "ignoredNodes": [
